@@ -30,7 +30,6 @@ nav ul li{
     margin-top: 10px;
     list-style: none;
     display: inline-block;
-    vertical-align: middle;
     margin-right: 40px;
     transition: 0.5s;
 }
@@ -38,12 +37,12 @@ nav ul li a{
     text-decoration: none;
     color: #fff;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 500;
     font-family: Georgia, 'Times New Roman', Times, serif;
     transition: 0.3s;
 }
-nav ul li:hover{
-    border-bottom: 2px solid #fff;
+nav ul li:hover a{
+    font-size: 16px;
 }
 .content{
     text-align: center;
@@ -102,8 +101,8 @@ form button:hover{
     margin: 50px auto;
     text-decoration: none;
     text-align: center;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
     color: #fff;
     padding: 14px 70px;
     border: 2px solid #fff;
